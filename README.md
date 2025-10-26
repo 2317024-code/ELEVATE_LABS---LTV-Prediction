@@ -17,22 +17,7 @@ Model saving (.joblib) and full-dataset prediction output
 
 CLV segmentation (Low / Medium / High)
 
-Automatic generation of plots and CSV outputs
-
-Project Structure
-.
-├── models/
-│   └── bestclv.joblib              
-├── outputs/
-│   ├── clvpred.csv                 
-│   ├── clvseg.csv                  
-│   ├── clvhist.png                
-│   └── clvsegplot.png              
-├── WA_Fn-UseC_-Marketing-Customer-Value-Analysis.csv
-├── clv_model.py                   
-└── README.md                      
-
-# Dataset
+Automatic generation of plots and CSV outputs                      
 
 ## Dataset:
 LTV (Marketing-Customer-Value-Analysis).csv
