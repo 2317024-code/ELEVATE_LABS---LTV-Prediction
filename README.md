@@ -1,5 +1,4 @@
-# ELEVATE_LABS---LTV-Prediction
-Customer Lifetime Value (CLV) Prediction
+# Customer Lifetime Value Prediction Model
 
 This project builds a machine learning model to predict Customer Lifetime Value (CLV) using an insurance marketing dataset. It applies automated data preprocessing, feature engineering, and model optimization with Random Forest and XGBoost regressors.                 
 
