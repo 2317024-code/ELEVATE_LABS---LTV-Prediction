@@ -102,13 +102,13 @@ Outputs will be saved in /content/models/ and /content/outputs/
 
 After training completes:
 
-clvpred.csv     # Predicted CLV for all customers
-
-clvseg.csv      # Segmented customers (Low, Medium, High)
-
-clvhist.png     # Distribution of predicted CLV
-
-clvsegplot.png  # Boxplot of CLV segments
+    clvpred.csv     # Predicted CLV for all customers
+    
+    clvseg.csv      # Segmented customers (Low, Medium, High)
+    
+    clvhist.png     # Distribution of predicted CLV
+    
+    clvsegplot.png  # Boxplot of CLV segments
 
 CSV files: Open in Excel or pandas to inspect predicted CLV and segments
 
