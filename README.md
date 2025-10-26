@@ -102,10 +102,13 @@ Outputs will be saved in /content/models/ and /content/outputs/
 
 After training completes:
 
-clvpred.csv              # Predicted CLV for all customers
-clvseg.csv               # Segmented customers (Low, Medium, High)
-clvhist.png              # Distribution of predicted CLV
-clvsegplot.png           # Boxplot of CLV segments
+clvpred.csv     # Predicted CLV for all customers
+
+clvseg.csv      # Segmented customers (Low, Medium, High)
+
+clvhist.png     # Distribution of predicted CLV
+
+clvsegplot.png  # Boxplot of CLV segments
 
 CSV files: Open in Excel or pandas to inspect predicted CLV and segments
 
@@ -117,11 +120,11 @@ Model: You can reload and reuse the trained model later with joblib.load()
 
 Metric	Description
 
-MAE (Mean Absolute Error)	Average prediction error (lower = better)
-
-RMSE (Root Mean Squared Error)	Penalizes larger errors (lower = better)
-
-R² (R-squared)	Indicates how much variance in CLV is explained by the model (higher = better)
+    MAE (Mean Absolute Error)	Average prediction error (lower = better)
+    
+    RMSE (Root Mean Squared Error)	Penalizes larger errors (lower = better)
+    
+    R² (R-squared)	Indicates how much variance in CLV is explained by the model (higher = better)
 
 Example output:
 RF MAE: 1560.231  RMSE: 2380.510  R2: 0.84
